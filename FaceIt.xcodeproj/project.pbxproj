@@ -13,6 +13,7 @@
 		303B2EA3215BCD2000895D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303B2EA2215BCD2000895D4D /* Assets.xcassets */; };
 		303B2EA6215BCD2000895D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303B2EA4215BCD2000895D4D /* LaunchScreen.storyboard */; };
 		303B2EAF215BCE2E00895D4D /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303B2EAE215BCE2E00895D4D /* FaceView.swift */; };
+		3079CF2921608C5400C0D064 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3079CF2821608C5400C0D064 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		303B2EA5215BCD2000895D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303B2EA7215BCD2000895D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		303B2EAE215BCE2E00895D4D /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		3079CF2821608C5400C0D064 /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				303B2E9D215BCD1C00895D4D /* FaceViewController.swift */,
 				303B2EAE215BCE2E00895D4D /* FaceView.swift */,
+				3079CF2821608C5400C0D064 /* FacialExpression.swift */,
 				303B2E9F215BCD1C00895D4D /* Main.storyboard */,
 				303B2EAD215BCD5200895D4D /* Supporting Files */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				303B2E9E215BCD1C00895D4D /* FaceViewController.swift in Sources */,
+				3079CF2921608C5400C0D064 /* FacialExpression.swift in Sources */,
 				303B2E9C215BCD1C00895D4D /* AppDelegate.swift in Sources */,
 				303B2EAF215BCE2E00895D4D /* FaceView.swift in Sources */,
 			);
